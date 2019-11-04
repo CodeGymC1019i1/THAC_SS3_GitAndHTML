@@ -1,0 +1,25 @@
+.table td:nth-child(even){
+    text-align: right;
+}
+
+.table{
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+}
+
+table{
+    width: 70%;
+}
+
+td, th{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+.table td{
+    border-style: none;
+}
+
+th tr:nth-child(even){
+    background-color: orange;
+}

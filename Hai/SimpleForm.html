@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .styleform{
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
 </head>
 <body>
-<fieldset style="border: azure;border: 1px">
-<form method="get" action="SimpleForm.html" style="font-family: Lucida Grande,Lucida Sans Unicode, Tahoma">
+<form method="get" action="SimpleForm.html" class="styleform">
     <h2>Order Form</h2>
     <p><b>What would you like to buy?</b></p>
     <select>
-        <option value=" ">a</option>
+        <option value=" ">A</option>
         <option>B (+    0.5$)</option>
         <option>C (+    0/5$)</option>
     </select>
@@ -19,8 +23,8 @@
     <input type="radio" name="rd"/> 2 - $20 <br/>
     <input type="radio" name="rd"/> 3 - $25 <br/>
     <p><b>Name</b></p>
-    <input type="text" name="first name">
-    <input type="text" name="last name"></br>
+    <input type="text" name="name" placeholder="First name">
+    <input type="text" name="name" placeholder="Name"></br>
     <p><b>Email</b></p>
     <input type="text" name="email">
     <p><b>Phone Number</b></p>
@@ -29,6 +33,5 @@
     <input type="number" name="phonenumber"></br>
     <button type="submit">Submit</button>
 </form>
-</fieldset>
 </body>
 </html>
